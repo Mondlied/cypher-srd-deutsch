@@ -1,0 +1,951 @@
+How to Play the Cypher System;file:01_How_to_Play_the_Cypher_System.md
+WHEN DO YOU ROLL?;heading:2
+TASK DIFFICULTY;heading:2
+COMBAT;heading:2
+SPECIAL ROLLS;heading:2
+GLOSSARY;heading:2
+RANGE AND SPEED;heading:2
+EXPERIENCE POINTS;heading:2
+CYPHERS;heading:2
+OTHER DICE;heading:2
+Creating Your Character;file:02_Creating_Your_Character.md
+CHARACTER STATS;heading:2
+MIGHT;heading:2
+SPEED;heading:3
+INTELLECT;heading:3
+POOL, EDGE, AND EFFORT;heading:2
+POOL;heading:3
+EDGE;heading:3
+EFFORT;heading:3
+EFFORT AND DAMAGE;heading:3
+MULTIPLE USES OF EFFORT AND EDGE;heading:3
+STAT EXAMPLES;heading:3
+CHARACTER TIERS;heading:2
+CHARACTER DESCRIPTOR, TYPE, AND FOCUS;heading:2
+SPECIAL ABILITIES;heading:2
+SKILLS;heading:2
+Type;file:03_Type.md
+PLAYER INTRUSION;heading:2
+WARRIOR;heading:2
+WARRIOR PLAYER INTRUSIONS;heading:3
+WARRIOR STAT POOLS;heading:3
+FIRST-TIER WARRIOR;heading:3
+SECOND-TIER WARRIOR;heading:3
+THIRD-TIER WARRIOR;heading:3
+FOURTH-TIER WARRIOR;heading:3
+FIFTH-TIER WARRIOR;heading:3
+SIXTH-TIER WARRIOR;heading:3
+WARRIOR EXAMPLE;heading:3
+ADEPT;heading:2
+ADEPT PLAYER INTRUSIONS;heading:3
+ADEPT STAT POOLS;heading:3
+FIRST-TIER ADEPT;heading:3
+SECOND-TIER ADEPT;heading:3
+THIRD-TIER ADEPT;heading:3
+FOURTH-TIER ADEPT;heading:3
+FIFTH-TIER ADEPT;heading:3
+SIXTH-TIER ADEPT;heading:3
+ADEPT EXAMPLE;heading:3
+EXPLORER;heading:2
+EXPLORER PLAYER INTRUSIONS;heading:3
+EXPLORER STAT POOLS;heading:3
+FIRST-TIER EXPLORER;heading:3
+SECOND-TIER EXPLORER;heading:3
+THIRD-TIER EXPLORER;heading:3
+FOURTH-TIER EXPLORER;heading:3
+FIFTH-TIER EXPLORER;heading:3
+SIXTH-TIER EXPLORER;heading:3
+EXPLORER EXAMPLE;heading:3
+SPEAKER;heading:2
+SPEAKER PLAYER INTRUSIONS;heading:3
+SPEAKER STAT POOLS;heading:3
+FIRST-TIER SPEAKER;heading:3
+SECOND-TIER SPEAKER;heading:3
+THIRD-TIER SPEAKER;heading:3
+FOURTH-TIER SPEAKER;heading:3
+FIFTH-TIER SPEAKER;heading:3
+SIXTH-TIER SPEAKER;heading:3
+SPEAKER EXAMPLE;heading:3
+FURTHER CUSTOMIZATION;heading:2
+MODIFYING TYPE ASPECTS;heading:3
+DRAWBACKS AND PENALTIES;heading:3
+Flavor;file:04_Flavor.md
+STEALTH FLAVOR;heading:2
+FIRST-TIER STEALTH ABILITIES;heading:3
+SECOND-TIER STEALTH ABILITIES;heading:3
+THIRD-TIER STEALTH ABILITIES;heading:3
+FOURTH-TIER STEALTH ABILITIES;heading:3
+FIFTH-TIER STEALTH ABILITIES;heading:3
+SIXTH-TIER STEALTH ABILITIES;heading:3
+TECHNOLOGY FLAVOR;heading:2
+FIRST-TIER TECHNOLOGY ABILITIES;heading:3
+SECOND-TIER TECHNOLOGY ABILITIES;heading:3
+THIRD-TIER TECHNOLOGY ABILITIES;heading:3
+FOURTH-TIER TECHNOLOGY ABILITIES;heading:3
+FIFTH-TIER TECHNOLOGY ABILITIES;heading:3
+SIXTH-TIER TECHNOLOGY ABILITIES;heading:3
+MAGIC FLAVOR;heading:2
+FIRST-TIER MAGIC ABILITIES;heading:3
+SECOND-TIER MAGIC ABILITIES;heading:3
+THIRD-TIER MAGIC ABILITIES;heading:3
+FOURTH-TIER MAGIC ABILITIES;heading:3
+FIFTH-TIER MAGIC ABILITIES;heading:3
+SIXTH-TIER MAGIC ABILITIES;heading:3
+COMBAT FLAVOR;heading:2
+FIRST-TIER COMBAT ABILITIES;heading:3
+SECOND-TIER COMBAT ABILITIES;heading:3
+THIRD-TIER COMBAT ABILITIES;heading:3
+FOURTH-TIER COMBAT ABILITIES;heading:3
+FIFTH-TIER COMBAT ABILITIES;heading:3
+SIXTH-TIER COMBAT ABILITIES;heading:3
+SKILLS AND KNOWLEDGE FLAVOR;heading:2
+FIRST-TIER SKILLS AND KNOWLEDGE ABILITIES;heading:3
+SECOND-TIER SKILLS AND KNOWLEDGE ABILITIES;heading:3
+THIRD-TIER SKILLS ANDKNOWLEDGE ABILITIES;heading:3;Third-Tier Skills and Knowlege Abilities
+FOURTH-TIER SKILLS AND KNOWLEDGE ABILITIES;heading:3
+FIFTH-TIER SKILLS ANd KNOWLEDGE ABILITIES;heading:3
+SIXTH-TIER SKILLS AND KNOWLEDGE ABILITIES;heading:3
+Descriptor;file:05_Descriptor.md
+DESCRIPTORS;heading:2
+APPEALING;heading:2
+BENEFICENT;heading:2
+BRASH;heading:2
+CALM;heading:2
+CHAOTIC;heading:2
+CHARMING;heading:2
+CLEVER;heading:2
+CLUMSY;heading:2
+CRAVEN;heading:2
+CREATIVE;heading:2
+CRUEL;heading:2
+DISHONORABLE;heading:2
+DOOMED;heading:2
+EMPATHIC;heading:2
+EXILED;heading:2
+FAST;heading:2
+FOOLISH;heading:2
+GRACEFUL;heading:2
+GUARDED;heading:2
+HARDY;heading:2
+HIDEOUS;heading:2
+HONORABLE;heading:2
+IMPULSIVE;heading:2
+INQUISITIVE;heading:2
+INTELLIGENT;heading:2
+INTUITIVE;heading:2
+JOVIAL;heading:2
+KIND;heading:2
+LEARNED;heading:2
+LUCKY;heading:2
+MAD;heading:2
+MECHANICAL;heading:2
+MYSTERIOUS;heading:2
+MYSTICAL;heading:2
+NAIVE;heading:2
+PERCEPTIVE;heading:2
+RESILIENT;heading:2
+RISK-TAKING;heading:2
+RUGGED;heading:2
+SHARP-EYED;heading:2
+SKEPTICAL;heading:2
+STEALTHY;heading:2
+STRONG;heading:2
+STRONG-WILLED;heading:2
+SWIFT;heading:2
+TONGUE-TIED;heading:2
+TOUGH;heading:2
+VICIOUS;heading:2
+VIRTUOUS;heading:2
+WEIRD;heading:2
+CUSTOMIZING DESCRIPTORS;heading:2
+SPECIES AS DESCRIPTOR;heading:2
+Focus;file:06_Focus.md
+CHOOSING FOCI;heading:2
+FOCUS CONNECTIONS;heading:3
+STORY BEHIND THE FOCUS;heading:3
+FOCI;heading:2
+Abides in Stone;heading:3
+Absorbs Energy;heading:3
+Awakens Dreams;heading:3
+Battles Robots;heading:3
+Bears a Halo of Fire;heading:3
+Blazes With Radiance;heading:3
+Brandishes an Exotic Shield;heading:3
+Builds Robots;heading:3
+Calculates the Incalculable;heading:3
+Channels Divine Blessings;heading:3
+Commands Mental Powers;heading:3
+Conducts Weird Science;heading:3
+Consorts With the Dead;heading:3
+Controls Beasts;heading:3
+Controls Gravity;heading:3
+Crafts Illusions;heading:3
+Crafts Unique Objects;heading:3
+Dances With Dark Matter;heading:3
+Defends the Gate;heading:3
+Defends the Weak;heading:3
+Descends From Nobility;heading:3
+Doesn’t Do Much;heading:3
+Drives Like A Maniac;heading:3
+Emerged From the Obelisk;heading:3
+Employs Magnetism;heading:3
+Entertains;heading:3
+Exists in Two Places at Once;heading:3
+Exists Partially Out of Phase;heading:3
+Explores Dark Places;heading:3
+Fights Dirty;heading:3
+Fights With Panache;heading:3
+Flies Faster Than a Bullet;heading:3
+Focuses Mind Over Matter;heading:3
+Fuses Flesh and Steel;heading:3
+Fuses Mind and Machine;heading:3
+Grows to Towering Heights;heading:3
+Helps Their Friends;heading:3
+Howls at the Moon;heading:3
+Hunts;heading:3
+Infiltrates;heading:3
+Interprets the Law;heading:3
+Is Idolized by Millions;heading:3
+Is Licensed to Carry;heading:3
+Is Wanted by the Law;heading:3
+Keeps a Magic Ally;heading:3
+Leads;heading:3
+Learns Quickly;heading:3
+Lives in the Wilderness;heading:3
+Looks for Trouble;heading:3
+Loves the Void;heading:3
+Masters Defense;heading:3
+Masters Spells;heading:3
+Masters the Swarm;heading:3
+Masters Weaponry;heading:3
+Metes Out Justice;heading:3
+Moves Like a Cat;heading:3
+Moves Like the Wind;heading:3
+Murders;heading:3
+Needs No Weapon;heading:3
+Never Says Die;heading:3
+Operates Undercover;heading:3
+Performs Feats of Strength;heading:3
+Pilots Starcraft;heading:3
+Plays Too Many Games;heading:3
+Rages;heading:3
+Rides the Lightning;heading:3
+Runs Away;heading:3
+Sailed Beneath the Jolly Roger;heading:3
+Scavenges;heading:3
+Sees Beyond;heading:3
+Shepherds the Community;heading:3
+Shepherds Spirits;heading:3
+Shreds the Walls of the World;heading:3
+Siphons Power;heading:3
+Slays Monsters;heading:3
+Solves Mysteries;heading:3
+Speaks for the Land;heading:3
+Stands Like a Bastion;heading:3
+TakeS ANiMAL SHAPE;heading:3
+Talks to Machines;heading:3
+Throws With Deadly Accuracy;heading:3
+Thunders;heading:3
+Travels Through Time;heading:3
+USES WILD MAGIC;heading:3
+WALKS THE WILD WOODS;heading:3
+Was Foretold;heading:3
+Wears a Sheen of Ice;heading:3
+Wears Power Armor;heading:3
+WEILDS AN ENCHANTED WEAPON;heading:3
+Wields Two Weapons at Once;heading:3
+Works for a Living;heading:3
+Works Miracles;heading:3
+Works the Back Alleys;heading:3
+Would Rather Be Reading;heading:3
+CREATING NEW FOCI;file:07_Creating_New_Foci.md
+CHOOSING ABILITIES BY RELATIVE POWER;heading:2
+BALANCING ABILITIES;heading:2
+ABILITY GUIDELINES ARE NOT PERSCRIPTIVE;heading:2
+ABILITY SWAP;heading:2
+CONCEPT AND CATEGORY;heading:2
+Abilities That Reference Other Abilities;heading:2
+CREATING BRAND-NEW ABILITIES;heading:2
+CHOOSE GM INTRUSIONS;heading:2
+FOCUS CATEGORIES;heading:1
+ALLY USE;heading:2
+Ability Selection Guidelines;heading:3
+BASIC;heading:2
+Ability Selection Guidelines;heading:3
+ENERGY MANIPULATION;heading:2
+Ability Selection Guidelines;heading:3
+ENVIRONMENT MANIPULATION;heading:2
+Ability Selection Guidelines;heading:3
+EXPLORATION;heading:2
+Ability Selection Guidelines;heading:3
+INFLUENCE;heading:2
+Ability Selection Guidelines;heading:3
+IRREGULAR;heading:2
+Ability Selection Guidelines;heading:3
+MOVEMENT EXPERTISE;heading:2
+Ability Selection Guidelines;heading:3
+STRIKER COMBAT;heading:2
+Ability Selection Guidelines;heading:3
+SUPPORT;heading:2
+Ability Selection Guidelines;heading:3
+TANK COMBAT;heading:2
+Ability Selection Guidelines;heading:3
+CUSTOMIZING FOCI;heading:2
+TIER 1;heading:3
+TIER 2;heading:3
+TIER 3;heading:3
+TIER 4;heading:3
+TIER 5;heading:3
+TIER 6;heading:3
+Abilities;file:08_Abilities.md
+ABILITY CATEGORIES AND RELATIVE POWER;heading:2
+ATTACK SKILL;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+COMPANION;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+CONTROL;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+CRAFT;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+CURE;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+ENVIRONMENT;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+INFORMATION;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+META;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+MOVEMENT;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+PROTECTION;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+SENSES;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+SOCIAL;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+SPECIAL ATTACK;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+SUPPORT;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+TASK;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+TRANSFORM;heading:3
+Low Tier:;heading:4
+Mid Tier:;heading:4
+High Tier:;heading:4
+Abilities—A;heading:2
+Abilities—B;heading:2
+Abilities—C;heading:2
+Abilities—D;heading:2
+Abilities—E;heading:2
+Abilities—F;heading:2
+Abilities—G;heading:2
+Abilities—H;heading:2
+Abilities—I;heading:2
+Abilities—J;heading:2
+Abilities—K;heading:2
+Abilities—L;heading:2
+Abilities—M;heading:2
+Abilities—N;heading:2
+Abilities—O;heading:2
+Abilities—P;heading:2
+Abilities—Q;heading:2
+Abilities—R;heading:2
+Abilities—S;heading:2
+Abilities—T;heading:2
+Abilities—U;heading:2
+Abilities—V;heading:2
+Abilities—W;heading:2
+Abilities—Y;heading:2
+Abilities—Z;heading:2
+Equipment;file:09_Equipment.md
+CURRENCY AND PRICES;heading:2
+PRICE CATEGORIES;heading:2
+USING THE PRICE CATEGORIES;heading:3
+ARMOR;heading:2
+USING ARMOR;heading:3
+WEAPONS;heading:2
+EXPLOSIVE WEAPONS;heading:3
+Miscellaneous Items and Services;heading:2
+CYPHERS;heading:2
+ARTIFACTS;heading:2
+Finding, Identifying, and USing Artifacts;heading:3
+Rules of the Game;file:10_Rules_of_the_Game.md
+KEY CONCEPTS;heading:3
+TAKING ACTION;heading:2
+DETERMINING TASK STAT;heading:2
+DETERMINING TASK DIFFICULTY;heading:3
+MODIFYING THE DIFFICULTY;heading:2
+SKILLS;heading:3
+ASSETS;heading:3
+EFFORT;heading:3
+ROLLING THE DIE;heading:3
+THE PLAYER ALWAYS ROLLS;heading:2
+SPECIAL ROLLS;heading:2
+GM INTRUSION;heading:3
+MINOR EFFECT;heading:3
+MAJOR EFFECT;heading:3
+INITIAL COST;heading:2
+DISTANCE;heading:2
+OTHER DISTANCES;heading:3
+TIMEKEEPING;heading:2
+ENCOUNTERS, ROUNDS, AND INITIATIVE;heading:2
+ACTIONS;heading:2
+ACTION: ATTACK;heading:2
+Damage;heading:3
+Armor;heading:3
+Ambient Damage;heading:3
+DAMAGE FROM HAZARDS;heading:3
+The Effects of Taking Damage;heading:3
+The Damage Track;heading:3
+Recovering Points in a Pool;heading:3
+Restoring the Damage Track;heading:3
+Special Damage;heading:3
+NPCs and Special Damage;heading:3
+ATTACK MODIFIERS AND SPECIAL SITUATIONS;heading:3
+Cover;heading:4
+Position;heading:4
+Surprise;heading:4
+Range;heading:4
+Illumination;heading:4
+Visibility;heading:4
+Water;heading:4
+Moving Targets;heading:4
+SPECIAL SITUATION: COMBAT BETWEEN NPCs;heading:3
+SPECIAL SITUATION: COMBAT BETWEEN PCs;heading:3
+SPECIAL SITUATION: AREA ATTACKS;heading:3
+SPECIAL SITUATION: ATTACKING OBJECTS;heading:3
+ACTION: Activate a Special Ability;heading:2
+ACTION: MOVE;heading:2
+Long-Term Movement;heading:3
+Movement Modifiers;heading:3
+Special Situation: A Chase;heading:3
+ACTION: WAIT;heading:2
+ACTION: DEFEND;heading:2
+ACTION: DO SOMETHING ELSE;heading:2
+CLIMBING;heading:3
+CLIMBING Difficulty;heading:3
+COOPERATIVE ACTIONS;heading:3
+CRAFTING, BUILDING, AND REPAIRING;heading:3
+Crafting Difficulty and Time;heading:4
+GUARDING;heading:3
+HEALING;heading:3
+INTERACTING WITH CREATURES;heading:3
+JUMPING;heading:3
+LOOKING OR LISTENING;heading:3
+MOVING A HEAVY OBJECT;heading:3
+OPERATING OR DISABLING A DEVICE, OR PICKING A LOCK;heading:3
+RIDING OR PILOTING;heading:3
+RIDING OR PILOTING Difficulty;heading:4
+SNEAKING;heading:3
+SWIMMING;heading:3
+UNDERSTANDING, IDENTIFYING, OR REMEMBERING;heading:3
+VEHICULAR MOVEMENT;heading:3
+VEHICULAR COMBAT;heading:3
+FOLLOWERS;heading:2
+BREATHING LIFE INTO FOLLOWERS;heading:2
+Experience Points;file:11_Experience_Points.md
+GM INTRUSION;heading:2
+CHARACTER ARCS;heading:2
+GM AWARDS;heading:2
+SPENDING EXPERIENCE POINTS;heading:2
+EQUAL ADVANCEMENT;heading:4
+TIER ADVANCEMENT IN THE CYPHER SYSTEM;heading:4
+SAMPLE CHARACTER ARCS;heading:2
+AID A FRIEND;heading:3
+ASSIST AN ORGANIZATION;heading:3
+AVENGE;heading:3
+BIRTH;heading:3
+BUILD;heading:3
+CLEANSE;heading:3
+CREATION;heading:3
+DEFEAT A FOE;heading:3
+DEFENSE;heading:3
+DEVELOP A BOND;heading:3
+ENTERPRISE;heading:3
+ESTABLISHMENT;heading:3
+EXPLORE;heading:3
+FALL FROM GRACE;heading:3
+FINISH A GREAT WORK;heading:3
+GROWTH;heading:3
+INSTRUCTION;heading:3
+JOIN AN ORGANIZATION;heading:3
+JUSTICE;heading:3
+LEARN;heading:3
+MASTER A SKILL;heading:3
+MYSTERIOUS BACKGROUND;heading:3
+NEW DISCOVERY;heading:3
+RAISE A CHILD;heading:3
+REDEMPTION;heading:3
+REPAY A DEBT;heading:3
+RESCUE;heading:3
+RESTORATION;heading:3
+REVENGE;heading:3
+ROMANCE;heading:3
+SOLVE A MYSTERY;heading:3
+THEFT;heading:3
+TRAIN A CREATURE;heading:3
+TRANSFORMATION;heading:3
+UNCOVER A SECRET;heading:3
+UNDO A WRONG;heading:3
+Fantasy;file:12_Genre_Fantasy.md
+Suggested Types for a FANTASY Game;heading:3
+ADDITIONAL FANTASY EQUIPMENT;heading:2
+INEXPENSIVE ITEMS;heading:3
+MODERATELY PRICED ITEMS;heading:3
+EXPENSIVE ITEMS;heading:3
+VERY EXPENSIVE ITEMS;heading:3
+EXORBITANT ITEMS;heading:3
+FANTASY ARTIFACTS;heading:2
+ANGELIC WARD;heading:3
+RING OF DRAGON’S FLIGHT;heading:3
+SOULFLAYING WEAPON;heading:3
+SPELLBOOK OF THE AMBER MAGE;heading:3
+WAND OF FIREBOLTS;heading:3
+MIXING IT UP: FANTASY;heading:2
+Fantasy SPECIES DESCRIPTORS;heading:2
+CATFOLK;heading:3
+DRAGONFOLK;heading:3
+DWARF;heading:3
+ELF;heading:3
+GNOME;heading:3
+HALF-GIANT;heading:3
+HALFLING;heading:3
+HELBORN;heading:3
+LIZARDFOLK;heading:3
+OPTIONAL RULE: SPELLCASTING;heading:2
+FIRST SPELL;heading:3
+MORE SPELLS;heading:3
+WIZARDS AND THE OPTIONAL SPELLCASTING RULE;heading:3
+Modern;file:13_Genre_Modern.md
+MOLDING CHARACTERS FOR A MODERN GAME;heading:3
+Suggested Types for a MODERN Game;heading:3
+Basic CREATURES AND NPCs FOR A Modern GAME;heading:3
+ADDITIONAL MODERN EQUIPMENT;heading:2
+INEXPENSIVE ITEMS;heading:3
+MODERATELY PRICED ITEMS;heading:3
+EXPENSIVE ITEMS;heading:3
+VERY EXPENSIVE ITEMS;heading:3
+EXORBITANT ITEMS;heading:3
+OPTIONAL RULE: HANDLING PCs AS CHILDREN;heading:3
+AGE 9 TO 13;heading:4
+AGE 14 TO 17;heading:4
+SCIENCE FICTION;file:14_Genre_Science_Fiction.md
+SUGGESTED TYPES FOR A SCIENCE FICTION GAME;heading:3
+Basic CREATURES AND NPCs FOR A SCIENCE FICTION GAME;heading:3
+ADDITIONAL SCIENCE FICTION EQUIPMENT;heading:2
+INEXPENSIVE ITEMS;heading:3
+Moderately Priced ITEMS;heading:3
+EXPENSIVE ITEMS;heading:3
+Very EXPENSIVE ITEMS;heading:3
+Exhorbitant ITEMS;heading:3
+Science Fiction SPECIES DESCRIPTORS;heading:2
+ARTIFICIALLY INTELLIGENT;heading:3
+QUINTAR;heading:3
+Horror;file:15_Genre_Horror.md
+CONSENT;heading:3
+Basic CREATURES AND NPCs FOR A HORROR GAME;heading:3
+HORROR ARTIFACTS;heading:2
+BOOK OF INVERSION;heading:3
+SHADOW BOX;heading:3
+SPHERE 23;heading:3
+OPTIONAL RULE: SHOCK;heading:2
+SHOCK LEVELS;heading:3
+OPTIONAL RULE: Horror Mode;heading:2
+ESCALATION RATE;heading:3
+USING GM INTRUSIONS IN HORROR MODE;heading:3
+OPTIONAL RULE: MADNESS;heading:2
+Romance;file:16_Genre_Romance.md
+CONSENT AND BOUNDARIES;heading:3
+THE CHECK-IN;heading:3
+Basic CREATURES AND NPCs FOR A ROMANCE GAME;heading:3
+OPTIONAL RULE: INFATUATION;heading:2
+OPTIONAL RULE: RELATIONSHIP LEVELS;heading:2
+ROMANTIC RELATIONSHIP LEVELS;heading:3
+PLATONIC RELATIONSHIP LEVELS;heading:3
+Superheroes;file:17_Genre_Superheroes.md
+SUGGESTED TYPES FOR A SUPERHERO GAME;heading:3
+Basic CREATURES AND NPCs FOR A SUPERHERO GAME;heading:3
+TAILORING THE CYPHER SYSTEM FOR SUPERHEROES;heading:3
+ADDITIONAL SUPERHERO EQUIPMENT;heading:2
+OPTIONAL RULE: POWER SHIFTS;heading:2
+SUPERPOWERED NPCs AND POWER SHIFTS;heading:3
+REALLY IMPOSSIBLE TASKS;heading:3
+SUPERHERO ARTIFACTS;heading:2
+DOCTOR DREAD’S TIME PORTAL;heading:3
+SERUM X;heading:3
+STELLAREX CRYSTAL;heading:3
+POST-APOCALYPTIC;file:18_Genre_Post-Apocalyptic.md
+SUGGESTED TYPES FOR A POST-APOCALYPTIC GAME;heading:3
+Basic CREATURES AND NPCs FOR A POST-APOCALYPTIC GAME;heading:3
+ADDITIONAL POST-APOCALYPTIC EQUIPMENT;heading:2
+INEXPENSIVE ITEMS;heading:3
+Moderately Priced ITEMS;heading:3
+EXPENSIVE ITEMS;heading:3
+POST-APOCALYPTIC ARTIFACTS;heading:2
+AUTODOC;heading:3
+ENVIROSCANNER;heading:3
+MILITARY EXOSKELETON;heading:3
+ROCKET FIST;heading:3
+ROCKET-PROPELLED GRENADE;heading:3
+TERAHERTZ SCANNER;heading:3
+Post-Apocalyptic SPECIES DESCRIPTORS;heading:2
+MORLOCK;heading:3
+ROACH;heading:3
+Fairy Tale;file:19_Genre_Fairy_Tale.md
+NATURE OF FAERIE;heading:3
+Basic CREATURES AND NPCs FOR A FAIRY TALE GAME;heading:3
+SUGGESTED FOCI FOR A FAIRY TALE GAME;heading:3
+FAIRY TALE ARTIFACTS;heading:2
+Historical;file:20_Genre_Historical.md
+SUGGESTED TYPES FOR A HISTORICAL GAME;heading:3
+Basic CREATURES AND NPCs FOR A HISTORICAL GAME;heading:3
+RUNNING A HISTORICAL GAME;heading:2
+HISTORICAL ARTIFACTS;heading:2
+Creatures;file:21_Creatures.md
+UNDERSTANDING THE LISTINGS;heading:2
+NORMAL ANIMALS;heading:2
+CREATURES;heading:2
+ABOMINATION 5 (15);heading:3
+BASILISK 5 (15);heading:3
+BLACKGUARD 6 (18);heading:3
+CAMBION 5 (15);heading:3
+CHIMERA 6 (18);heading:3
+CHRONOPHAGE 4 (12);heading:3
+CORRUPT MAGE 7 (21);heading:3
+CYCLOPS 7 (21);heading:3
+DEEP ONE 4 (12);heading:3
+DEINONYCHUS 3 (9);heading:3
+DEMIGOD 9 (27);heading:3
+DEMON 5 (15);heading:3
+DEMON LORD 9 (27);heading:3
+DEVIL 4 (12);heading:3
+DJINNI 7 (21);heading:3
+DRAGON 7 (21);heading:3
+EARTH ELEMENTAL 5 (15);heading:3
+ELEMENTAL, AIR 4 (12);heading:3
+ELEMENTAL, THORN 6 (18);heading:3
+ELEMENTAL, WATER 4 (12);heading:3
+ENTHRALLER 6 (18);heading:3
+EVIL PRIEST 7 (21);heading:3
+FAERIE 3 (9);heading:3
+FALLEN ANGEL 5 (15);heading:3
+FUSION HOUND 3 (9);heading:3
+GHOST 4 (12);heading:3
+GHOUL 4 (12);heading:3
+GIANT 7 (21);heading:3
+GIANT RAT 3 (9);heading:3
+GIANT SNAKE 4 (12);heading:3
+GIANT SPIDER 3 (9);heading:3
+Goblin 1 (3);heading:3
+GOLEM 6 (18);heading:3
+GORGON 5 (15);heading:3
+GREY 4 (12);heading:3
+HAG 6 (18);heading:3
+HARPY 3 (9);heading:3
+HOLLOW KNIGHT 4 (12);heading:3
+HYDRA 7 (21);heading:3
+JOTUNN (NORSE GIANT);heading:3
+JOTUNN, FIRE 6 (18);heading:3
+JOTUNN, FROST 6 (18);heading:3
+KAIJU 10 (30);heading:3
+KILLER CLOWN 5 (15);heading:3
+KILLING WHITE LIGHT 5 (15);heading:3
+LICH 8 (24);heading:3
+MANTICORE 6 (18);heading:3
+MECHANICAL SOLDIER 4 (12);heading:3
+MERFOLK 3 (9);heading:3
+MI-GO 5 (15);heading:3
+MINOTAUR 4 (12);heading:3
+MOKUREN 3 (9);heading:3
+MORLOCK 2 (6);heading:3
+NECROMANCER 5 (15);heading:3
+NOBLE KNIGHT 7 (21);heading:3
+NUPPEPPO 2 (6);heading:3
+OGRE 4 (12);heading:3
+ORC 2 (6);heading:3
+PRINCE(SS) OF SUMMER 5 (15);heading:3
+PUPPET TREE 6 (18);heading:3
+RAVAGE BEAR 4 (12);heading:3
+REPLICANT 5 (15);heading:3
+SAPIENT TREE 3 (9);heading:3
+SATYR 5 (15);heading:3
+SHADOW 1 (3);heading:3
+SHADOW ELF 4 (12);heading:3
+SKELETON 2 (6);heading:3
+SOUL EATER 5 (15);heading:3
+SPHINX 7 (21);heading:3
+STATUE, ANIMATE 7 (21);heading:3
+TROLL 6 (18);heading:3
+TYRANNOSAURUS REX 7 (21);heading:3
+VAMPIRE 6 (18);heading:3
+VAMPIRE, TRANSITIONAL 3 (9);heading:3
+VAT REJECT 3 (9);heading:3
+WARDROID 6 (18);heading:3
+WEREWOLF 4 (12);heading:3
+WITCH 5 (15);heading:3
+WORM THAT WALKS 7 (21);heading:3
+WRAITH 2 (6);heading:3
+WYVERN 6 (18);heading:3
+XENOPARASITE 6 (18);heading:3
+ZOMBIE 3 (9);heading:3
+SUPERVILLIANS;heading:2
+ANATHEMA 7 (21);heading:3
+DOCTOR DREAD 7 (21);heading:3
+MAGNETAR 8 (24);heading:3
+MISTER GENOCIDE 5 (15);heading:3
+WRATH 6 (18);heading:3
+NPCs;file:22_NPCs.md
+OTHER NPCs;heading:2
+ASSASSIN 6 (18);heading:3
+BARD 3 (9);heading:3
+BERSERKER 3 (9);heading:3
+CRIME BOSS 3 (9);heading:3
+DETECTIVE 3 (9);heading:3
+DRUID 4 (12);heading:3
+DWARF 4(12);heading:3
+ELF 4 (12);heading:3
+GUARD 2 (6);heading:3
+HALFLING 3 (9);heading:3
+OCCULTIST 5 (15);heading:3
+PALADIN 4 (12);heading:3
+SECRET AGENT 5 (15);heading:3
+THIEF 4 (12);heading:3
+THUG 3 (9);heading:3
+WIZARD, MIGHTY 8 (24);heading:3
+Cyphers;file:23_Cyphers.md
+WHY CYPHERS?;heading:2
+CYPHER LIMITS;heading:2
+SUBTLE CYPHERS;heading:2
+DISCOVERING SUBTLE CYPHERS;heading:3
+MANIFEST CYPHERS;heading:2
+MANIFEST CYPHERS DUPLICATING SUBLE CYPHERS;heading:2
+USING CYPHERS;heading:2
+CYPHER LEVELS AND EFFECTS;heading:2
+NORMAL AND FANTASTIC EFFECTS;heading:2
+OPTIONAL RULE: NORMAL CYPHERS DUPLICATING FANTASTIC EFFECTS;heading:3
+MANIFEST CYPHER FORMS;heading:2
+MANIFEST CYPHER FORM OPTIONS;heading:3
+A LISTING OF VARIOUS CYPHERS;heading:2
+ADHESION;heading:3
+AGE TAKER;heading:3
+ANALEPTIC;heading:3
+ANTIVENOM;heading:3
+ARMOR REINFORCER;heading:3
+ATTRACTOR;heading:3
+BANISHING;heading:3
+BEST TOOL;heading:3
+BLACKOUT;heading:3
+BLINKING;heading:3
+BURST OF SPEED;heading:3
+CATHOLICON;heading:3
+CHEMICAL FACTORY;heading:3
+COMPREHENSION;heading:3
+CONDITION REMOVER;heading:3
+CONTINGENT ACTIVATOR;heading:3
+CONTROLLED BLINKING;heading:3
+CURATIVE;heading:3
+CURSE BRINGER;heading:3
+DARKSIGHT;heading:3
+DEATH BRINGER;heading:3
+DENSITY;heading:3
+DETONATION;heading:3
+DETONATION (CREATURE);heading:3
+DETONATION (DESICCATING);heading:3
+DETONATION (FLASH);heading:3
+DETONATION (GRAVITY);heading:3
+DETONATION (GRAVITY INVERSION);heading:3
+DETONATION (MASSIVE);heading:3
+DETONATION (MATTER DISRUPTION);heading:3
+DETONATION (PRESSURE);heading:3
+DETONATION (SINGULARITY);heading:3
+DETONATION (SONIC);heading:3
+DETONATION (SPAWN);heading:3
+DETONATION (WEB);heading:3
+DISARM;heading:3
+DISGUISE MODULE;heading:3
+DISRUPTING;heading:3
+EAGLESEYE;heading:3
+EFFECT RESISTANCE;heading:3
+EFFORT ENHANCER (COMBAT);heading:3
+EFFORT ENHANCER (NONCOMBAT);heading:3
+ENDURING SHIELD;heading:3
+EQUIPMENT CACHE;heading:3
+FARSIGHT;heading:3
+FIREPROOFING;heading:3
+FLAME-RETARDANT WALL;heading:3
+FORCE CUBE;heading:3
+FORCE FIELD;heading:3
+FORCE SCREEN PROJECTOR;heading:3
+FORCE SHIELD PROJECTOR;heading:3
+FRICTION REDUCER;heading:3
+FRIGID WALL;heading:3
+GAS BOMB;heading:3
+GRAVITY NULLIFIER;heading:3
+GRAVITY-NULLIFYING APPLICATION;heading:3
+HEAT ATTACK;heading:3
+HUNTER/SEEKER;heading:3
+IMAGE PROJECTOR;heading:3
+INFERNO WALL;heading:3
+INFILTRATOR;heading:3
+INFORMATION SENSOR;heading:3
+INSTANT SERVANT;heading:3
+INSTANT SHELTER;heading:3
+INTELLECT BOOSTER;heading:3
+INTELLIGENCE ENHANCEMENT;heading:3
+KNOWLEDGE ENHANCEMENT;heading:3
+LIGHTNING WALL;heading:3
+MACHINE CONTROL;heading:3
+MAGNETIC ATTACK DRILL;heading:3
+MAGNETIC MASTER;heading:3
+MAGNETIC SHIELD;heading:3
+MANIPULATION BEAM;heading:3
+MATTER TRANSFERENCE RAY;heading:3
+MEDITATION AID;heading:3
+MEMORY SWITCH;heading:3
+MENTAL SCRAMBLER;heading:3
+METAL DEATH;heading:3
+MIND MELD;heading:3
+MIND-RESTRICTING WALL;heading:3
+MIND STABILIZER;heading:3
+MONOBLADE;heading:3
+MONOHORN;heading:3
+MOTION SENSOR;heading:3
+NULL FIELD;heading:3
+NULLIFICATION RAY;heading:3
+NUTRITION AND HYDRATION;heading:3
+PERFECT MEMORY;heading:3
+PERFECTION;heading:3
+PERSONAL ENVIRONMENT FIELD;heading:3
+PHASE CHANGER;heading:3
+PHASE DISRUPTOR;heading:3
+POISON (EMOTION);heading:3
+POISON (EXPLOSIVE);heading:3
+POISON (MIND CONTROLLING);heading:3
+POISON (MIND DISRUPTING);heading:3
+PSYCHIC COMMUNIQUE;heading:3
+RADIATION SPIKE;heading:3
+RAY EMITTER;heading:3
+RAY EMITTER (COMMAND);heading:3
+RAY EMITTER (FEAR);heading:3
+RAY EMITTER (FRIEND SLAYING);heading:3
+RAY EMITTER (MIND DISRUPTING);heading:3
+RAY EMITTER (NUMBING);heading:3
+RAY EMITTER (PARALYSIS);heading:3
+REALITY SPIKE;heading:3
+REFLEX ENHANCER;heading:3
+REJUVENATOR;heading:3
+REMEMBERING;heading:3
+REMOTE VIEWER;heading:3
+REPAIR UNIT;heading:3
+REPEATER;heading:3
+REPEL;heading:3
+RETALIATION;heading:3
+SECRET;heading:3
+SHEEN;heading:3
+SHOCK ATTACK;heading:3
+SHOCKER;heading:3
+SKILL BOOST;heading:3
+SLAVE MAKER;heading:3
+SLEEP INDUCER;heading:3
+SNIPER MODULE;heading:3
+SOLVENT;heading:3
+SONIC HOLE;heading:3
+SOUND DAMPENER;heading:3
+SPATIAL WARP;heading:3
+SPEED BOOST;heading:3
+SPY;heading:3
+STASIS KEEPER;heading:3
+STIM;heading:3
+STRENGTH BOOST;heading:3
+STRENGTH ENHANCER;heading:3
+SUBDUAL FIELD;heading:3
+TELEPATHY;heading:3
+TELEPORTER (BOUNDER);heading:3
+TELEPORTER (INTERSTELLAR);heading:3
+TELEPORTER (PLANETARY);heading:3
+TELEPORTER (TRAVELER);heading:3
+TEMPORAL VIEWER;heading:3
+TIME DILATION (DEFENSIVE);heading:3
+TIME DILATION (OFFENSIVE);heading:3
+TISSUE REGENERATION;heading:3
+TRACER;heading:3
+TRICK EMBEDDER;heading:3
+UNINTERRUPTIBLE POWER SOURCE;heading:3
+VANISHER;heading:3
+VISAGE CHANGER;heading:3
+VISUAL DISPLACEMENT DEVICE;heading:3
+VOCAL TRANSLATOR;heading:3
+WARMTH;heading:3
+WATER ADAPTER;heading:3
+WEAPON ENHANCEMENT;heading:3
+WINGS;heading:3
+X-RAY VIEWER;heading:3
+ZERO POINT FIELD;heading:3
+POWER BOOST CYPHERS;heading:3
+AREA BOOST;heading:3
+BURST BOOST;heading:3
+DAMAGE BOOST;heading:3
+EFFICACY BOOST (MAJOR);heading:3
+EFFICACY BOOST (MINOR);heading:3
+ENERGY BOOST;heading:3
+RANGE BOOST;heading:3
+TARGET BOOST;heading:3
+Running the Cypher System;file:24_Running_the_Game.md
+Setting Difficulty Ratings;heading:2
+The Impossible Difficulties;heading:3
+False Precision;heading:3
+Routine Actions;heading:3
+Other Ways to Judge Difficulty;heading:3
+ADVANTAGES TO THIS SYSTEM;heading:3
+GM Intrusion;heading:2
+Using GM Intrusion as a Narrative Tool;heading:3
+Using GM Intrusion as a Resolution Mechanic;heading:3
+Using (and Not Abusing) GM Intrusion;heading:3
+Intrusion Through Player Rolls;heading:3
+GM Intrusion That Affects the Group;heading:3
+Example GM Intrusions;heading:3
+Bad Luck;heading:4
+An Unknown Complication Emerges;heading:4
+An Impending Complication Emerges;heading:4
+Opponent Luck or Skill;heading:4
+Fumbles;heading:4
+Partial Success;heading:4
+PLAYER INTRUSIONS;heading:3
+Tying Actions to Stats;heading:3
+Cyphers;heading:2
+Artifacts;heading:2
+Skills and Other Abilities;heading:2
+NPCs and Death;heading:2
+Creatures;heading:2
+Balancing Encounters;heading:3

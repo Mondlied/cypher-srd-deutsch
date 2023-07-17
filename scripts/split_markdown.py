@@ -1,21 +1,16 @@
 import argparse
+from csrd_split_helpers import isSpaceOrEmpty, openMarkdownFile, printErrorAndExit
+import os
 import re
 import sys
 
 from html.parser import HTMLParser
 
-def printErrorAndExit(message):
-    '''
-    print a message to stderr and exit the program with error code 1
-    '''
-    print(message, file=sys.stderr)
-    sys.exit(1)
-
 def toTableHeaderLine(x):
     return ' --- '
 
 # words that remain lower case, assuming they're not in the first word
-unmodifiedHeaderWords = {
+lowercaseHeaderWords = {
     'of',
     'the',
     'and',
@@ -24,13 +19,13 @@ unmodifiedHeaderWords = {
     'an'
 }
 
-def capitalizeFirstLetter(s):
+def capitalizeFirstLetter(s : str) -> str:
     if len(s) == 0:
         return ''
     else:
         return s[0].upper() + s[1:].lower()
 
-def fixHeaderCase(s):
+def fixHeaderCase(s : str) -> str:
     '''
     Returns the input with all words capitalized except for those in unmodifiedHeaderWords 
     '''
@@ -43,8 +38,8 @@ def fixHeaderCase(s):
             else:
                 res = res + capitalizeFirstLetter(p)
                 firstWord = False
-        elif p.lower() in unmodifiedHeaderWords:
-            res = res + p
+        elif p.lower() in lowercaseHeaderWords:
+            res = res + p.lower()
         else:
             res = res + capitalizeFirstLetter(p)
     return res
@@ -122,7 +117,7 @@ class TableFragmentParser(HTMLParser):
         elif not data.isspace():
             printErrorAndExit(f'unexpected data outside of <th> or <td> elements: {data}')
 
-def toMatchHeading(x):
+def toMatchHeading(x : str) -> str:
     return x
 
 ################################################################################
@@ -136,19 +131,19 @@ def toMatchHeading(x):
 # The function returns True on a match and False otherwise
 ################################################################################
 
-def matchHeadings(matchHeading, x):
+def matchHeadings(matchHeading : str, x : str) -> bool:
     '''
     helper function for checking the equality of headings 
     '''
     return matchHeading == x
 
-def matchNone(m, x):
+def matchNone(m : 'FileMatcher', x : str) -> bool:
     '''
     Matcher function for treating everything as non-heading
     '''
     return False
 
-def matchHeading(m, x):
+def matchHeading(m : 'FileMatcher', x : str) -> bool:
     '''
     Matcher for inserting the matching heading at a specific heading level
     '''
@@ -159,7 +154,7 @@ def matchHeading(m, x):
     else:
         return False
 
-def matchNewFileHeading(m, x):
+def matchNewFileHeading(m : 'FileMatcher', x : str) -> bool:
     '''
     Matcher for opening a new file, if a heading is matched.
     The matched heading is inserted as h1 heading
@@ -168,9 +163,11 @@ def matchNewFileHeading(m, x):
         # close any previously opened file
         if m.hasOpenFile:
             m.file.close()
-        
-        # open the next file (note:pandoc uses utf-8)
-        m.file = open(m.matchFile, 'w', encoding='utf-8')
+            
+        # make sure parent path exists
+        # note: use absolute path to prevent dirname from returning an empty string
+        os.makedirs(os.path.dirname(os.path.abspath(m.matchFile)), exist_ok=True)
+        m.file = openMarkdownFile(m.matchFile, 'w')
         m.hasOpenFile = True
 
         # insert the heading
@@ -183,7 +180,7 @@ class FileMatcher:
     '''
     Helper class for headings line matching/file writing
     '''
-    def __init__(self, hls):
+    def __init__(self, hls : list[str]):
         self.matcher = matchNone
         self.headingIndex = -1
         self.headingsLines = hls
@@ -194,7 +191,7 @@ class FileMatcher:
         # activate the first line
         self.activateNextHeadingIndex()
 
-    def activateNextHeadingIndex(self):
+    def activateNextHeadingIndex(self) -> None:
         '''
         Activate the next line from the headings file as the matcher
         '''
@@ -235,14 +232,14 @@ class FileMatcher:
             else:
                 printErrorAndExit(f'error in headings file line {self.headingIndex} ("{heading}")')
 
-    def writeContent(self, content):
+    def writeContent(self, content : str) -> None:
         '''
         Write a line that isn't a candidate for a heading
         '''
         if self.hasOpenFile:
             self.file.write(content + '\n')
 
-    def writePossibleHeader(self, headerContent):
+    def writePossibleHeader(self, headerContent : str) -> None:
         '''
         Write something that is a candidate for a heading
         '''
@@ -255,7 +252,7 @@ class FileMatcher:
             print(f'WARNING: possible heading not listed in heading file: "{headerContent}"', file=sys.stderr)
             self.writeContent(headerContent)
 
-    def writeTable(self, rows, columnCount):
+    def writeTable(self, rows : list[str], columnCount : int) -> None:
         '''
         Write a table to the file.
 
@@ -273,7 +270,7 @@ class FileMatcher:
             self.writeContent(' | '.join(row))
         self.writeContent('')
 
-    def finish(self):
+    def finish(self) -> None:
         '''
         Function for ending the file writing. Warns about any headings not matched
         '''
@@ -290,14 +287,14 @@ parser = argparse.ArgumentParser(description='Split into files')
 parser.add_argument('--headings-file', '-s', dest='headingsFile', help='a file containing the heading info')
 parser.add_argument('--input-file', '-i', dest='inputFile', help='the input markdown file')
 args = parser.parse_args()
-with open(args.headingsFile, 'r', encoding='utf-8') as hf:
+with openMarkdownFile(args.headingsFile, 'r') as hf:
     headingLines = hf.read().splitlines()
     
 if len(headingLines) == 0:
     printErrorAndExit(f'the headings file "{args.headingsFile}" is empty')
 
 # note: pandoc uses utf-8
-with open(args.inputFile, 'r', encoding='utf-8') as inFile:
+with openMarkdownFile(args.inputFile, 'r') as inFile:
     inputLines = inFile.read().splitlines()
     
 matcher = FileMatcher(headingLines)
@@ -305,22 +302,19 @@ matcher = FileMatcher(headingLines)
 # treat the start of the file as empty line
 previousLineWasSpace = True
 
-def isSpaceOrEmpty(s):
-    return len(s) == 0 or s.isspace()
-
-def isListEntry(s):
+def isListEntry(s : str) -> None:
     '''
     Returns, whether the line is an entry of a unordered list
     '''
     return s.startswith('\u2022 ')
 
-def toMarkdownListItem(s):
+def toMarkdownListItem(s : str) -> str:
     '''
     Convert a line containing a list item to a line containing a proper markdown element
     '''
     return '*' + s[1:]
 
-def isTableStart(s):
+def isTableStart(s : str) -> bool:
     '''
     Check, if the parameter is the start tag of a table
     '''
@@ -328,13 +322,13 @@ def isTableStart(s):
     # note: the element could contain attributes
     return stripped.startswith('<table') and stripped.find('>') == (len(stripped) - 1) 
 
-def isTableEnd(s):
+def isTableEnd(s : str) -> bool:
     '''
     Check, if the parameter is the end element of a table
     '''
     return s.strip() == '</table>'
  
-def couldBeHeading(s):
+def couldBeHeading(s : str) -> bool:
     '''
     Check, if the line could be a heading.
 
@@ -345,7 +339,7 @@ def couldBeHeading(s):
 # we don't start of parsing a table
 parsingTable = False
 
-def parseSingleLine(i, assumeNextLineEmpty=False):
+def parseSingleLine(i : int, assumeNextLineEmpty : bool = False) -> None:
     '''
     Helper function for parsing a single line
 
